@@ -1,4 +1,5 @@
 import React from 'react';
+import './header.scss'
 
 const Header = () => {
     return (
@@ -7,7 +8,7 @@ const Header = () => {
                 <span>iFrame as SSO</span>
             </div>
             <div className="episode">
-                <span>logout</span>
+                <button>Logout</button>
             </div>
         </header>
     );
