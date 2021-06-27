@@ -1,0 +1,18 @@
+header {
+    position: absolute;
+    height: 108px;
+    width: 100%;
+    padding: 24px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $black;
+    .logo,
+    .episode {
+        span {
+            font-size: 1rem;
+            font-weight: 700;
+            letter-spacing: 0.04rem;
+        }
+    }
+}
